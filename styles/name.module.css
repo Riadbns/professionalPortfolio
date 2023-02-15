@@ -1,0 +1,40 @@
+.prenom{
+    color:rgb(59 130 246);
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  .name {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1.3px rgb(59 130 246);
+    position: relative;
+    font-weight: bold;
+  }
+  .name::before{
+    content:attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:0;
+    height: 100%;
+    color: rgb(59 130 246);
+    -webkit-text-stroke: 0px rgb(59 130 246);
+    border-right: 2px solid rgb(59 130 246);
+    overflow: hidden;
+    animation: animatename 6s linear infinite;
+  }
+  @keyframes animatename {
+    0% , 10%,100%{
+      width:0;
+    }
+    70%, 90% {
+      width: 100%;
+    }
+  }
+.name:hover {
+    transform: translateY(10px);
+    transition: transform 150ms ease-in-out;
+  } 
+ 
