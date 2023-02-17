@@ -115,6 +115,12 @@ const resume = () => {
             Familiar with scss
             </li>
             <li>
+            Familiar with Android and iOS development
+            </li>
+            <li>
+            Experience in designing for multiple contexts such as mobile, desktop, tablet
+            </li>
+            <li>
             Good knowledge of programming languages including Java, C#, C, C++, and Python.
             </li>
             <li>

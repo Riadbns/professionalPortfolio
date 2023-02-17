@@ -13,7 +13,7 @@ const HomePage = () => {
                   <h1 className={style.name} data-text="Benosmane">Benosmane</h1>
         </div> 
         <h2 className="uppercase font-bold text-gray-700 text-3xl">
-          Front End developer
+          Front End developer | Web developer
         </h2>
 
         <p className="text-gray-600 text-xl max-w-xl mx-auto">

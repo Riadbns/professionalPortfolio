@@ -1,5 +1,4 @@
 import React from "react";
-
 import html from "../public/assets/experience/html.png";
 import css from "../public/assets/experience/css.png";
 import javascript from "../public/assets/experience/javascript.png";
