@@ -12,12 +12,12 @@ const HomePage = () => {
                   <h1 className={style.prenom}>Riad.</h1> 
                   <h1 className={style.name} data-text="Benosmane">Benosmane</h1>
         </div> 
-        <h2 className="uppercase font-bold text-gray-700 text-3xl">
-          Front End developer | Web developer
+        <h2 className="uppercase font-bold text-gray-700 text-2xl">
+          Front End developer | Web developer | Software Developer
         </h2>
 
         <p className="text-gray-600 text-xl max-w-xl mx-auto">
-        Designing intuitive and state-of-the-art user interfaces with my expertise in front-end development.
+        Passionate computer programmer creating high-performance software and applications to meet user needs with excellence.
         </p>
 
         <Link href="/#me">

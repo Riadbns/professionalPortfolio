@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-
 import { MdExpandMore } from "react-icons/md";
 
 const Me = () => {
