@@ -1,5 +1,7 @@
 import React from 'react'
 import style from '../styles/card.module.css'
+import { FormattedMessage } from 'react-intl'
+
 const Certificate = () => {
     const portfolios = [
         {
@@ -48,7 +50,7 @@ const Certificate = () => {
                     <p className={style.cardexit}><i className="fas fa-times"></i></p>
                     <h2 className={style.cardtitle}>{title}</h2>
                     <p className={style.cardapply}>
-                        <a  className={style.cardlink} href={url} target="_blank" rel="noreferrer">See more <i className="fas fa-arrow-right"></i></a>
+                        <a  className={style.cardlink} href={url} target="_blank" rel="noreferrer"><FormattedMessage id="button_1"/> <i className="fas fa-arrow-right"></i></a>
                     </p>
                 </div>
              ))} 

@@ -8,6 +8,7 @@ import tailwind from "../public/assets/experience/tailwind.png";
 import bootstrap from "../public/assets/experience/bootstrap.png";
 import node from "../public/assets/experience/node.png";
 import Image from "next/image";
+import { FormattedMessage } from 'react-intl'
 
 const Experience = () => {
   const experiences = [
@@ -57,10 +58,10 @@ const Experience = () => {
     <div id="experience" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
         <h2 className="pt-4 text-3xl md:text-4xl tracking-wider uppercase text-blue-500 font-bold">
-          experience
+        <FormattedMessage id="experience_1"/>
         </h2>
         <p className="py-4 max-w-lg">
-          My Skills section showcases my knowledge of programming languages and shows my willingness to constantly learn new technologies.
+        <FormattedMessage id="Experience"/>
         </p>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">

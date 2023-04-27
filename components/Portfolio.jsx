@@ -3,6 +3,7 @@ import academique from "../public/assets/portfolio/academique.jpg";
 import technoshop from "../public/assets/portfolio/technoshop.jpg";
 import Image from "next/image";
 import Link from "next/link";
+import { FormattedMessage } from 'react-intl'
 
   const portfolios = [
     {
@@ -25,10 +26,10 @@ const Portfolio = () => {
     <div id="portfolio" className="w-full ">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
         <h2 className="pt-4 text-3xl md:text-4xl tracking-wider uppercase text-blue-500 font-bold">
-          projects
+        <FormattedMessage id="Nav_1"/>
         </h2>
         <p className="py-4 max-w-lg">
-          Discover my most recent achievements
+        <FormattedMessage id="portfolio"/>
         </p>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">

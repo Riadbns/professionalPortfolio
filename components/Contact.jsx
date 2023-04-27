@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-
+import { FormattedMessage } from 'react-intl'
 import contactus from "../public/assets/contact.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -21,7 +21,7 @@ const Contact = () => {
               className="rounded-xl"
             />
             <p className="pt-2 pb-8">
-            I am open to talk regarding full-time or part-time opportunities. Fell free to contact me using your preferred medium.
+              <FormattedMessage id="contact_item_1"/>            
             </p>
 
             <div className="flex flex-row justify-evenly">
@@ -48,7 +48,7 @@ const Contact = () => {
                 <div className="flex flex-col">
                   <div className="flex flex-col">
                     <label className="capitalize text-sm py-2 text-slate-600 font-light">
-                    name
+                    <FormattedMessage id="contact_item_2"/>
                     </label>
                     <input
                       type="text"
@@ -84,7 +84,7 @@ const Contact = () => {
 
                 <div className="flex items-center justify-center">
                   <button className="my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer hover:scale-105 duration-200">
-                  submit
+                  <FormattedMessage id="contact_item_3"/>
                   </button>
                 </div>
               </form>

@@ -1,0 +1,103 @@
+.switch {
+  position: relative;
+  display: inline-block;
+}
+
+.switch > span {
+  position: absolute;
+  top: 7px;
+  pointer-events: none;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+  width: 50%;
+  text-align: center;
+}
+
+input.checktoggleroundflat:checked ~ .off {
+  color: white;
+}
+
+input.checktoggleroundflat:checked ~ .on {
+  color: #2544f3;
+
+}
+
+.switch > span.on {
+  left: 0;
+  color: white;
+}
+
+.switch > span.off {
+  right: 0;
+  padding-right: 4px;
+  color: #2544f3;
+}
+
+.checktoggle {
+  position: absolute;
+  visibility: hidden;
+}
+.checktoggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input.checktoggleroundflat + label {
+ padding-top: 10px;
+  width: 97px;
+  height: 30px;
+  background-color: #2544f3;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  border-radius: 60px;
+}
+input.checktoggleroundflat + label:before, input.checktoggleroundflat + label:after {
+  display: block;
+  position: absolute;
+  content: "";
+}
+
+input.checktoggleroundflat + label:before {
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  background-color: #c3d5fc;
+  -webkit--moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  border-radius: 60px;
+}
+input.checktoggleroundflat + label:after {
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  width: 45px;
+  background-color: #2544f3;
+  -webkit-border-radius: 52px;
+  -moz-border-radius: 52px;
+  -ms-border-radius: 52px;
+  -o-border-radius: 52px;
+  border-radius: 52px;
+  -webkit-transition: margin 0.2s;
+  -moz-transition: margin 0.2s;
+  -o-transition: margin 0.2s;
+  transition: margin 0.2s;
+}
+
+
+
+input.checktoggleroundflat:checked + label:after {
+  margin-left: 44px;
+}
