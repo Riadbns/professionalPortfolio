@@ -55,7 +55,7 @@ const resume = () => {
           <h5 className='text-center underline text-[18px] py-2'>        
             <FormattedMessage id="cv_4"/>
           </h5>
-          <p className='py-2'>
+          <p className='flex flex-wrap py-2'>
             <span className='px-2'></span>Javascript(ES6+)
             <span className='px-2'>|</span>HTML5
             <span className='px-2'>|</span>CSS3

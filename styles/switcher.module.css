@@ -73,7 +73,7 @@ input.checktoggleroundflat + label:before {
   left: 2px;
   bottom: 2px;
   right: 2px;
-  background-color: #c3d5fc;
+  background-color: #fff;
   -webkit--moz-border-radius: 60px;
   -ms-border-radius: 60px;
   -o-border-radius: 60px;
