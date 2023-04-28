@@ -114,7 +114,7 @@ const Navbar = () => {
                   checked={locale === 'fr'}
                   onChange={handleLocaleChange}
                   />
-                <label for="language-toggle"></label>
+                <label htmlFor="language-toggle"></label>
                 <span className={styles.on}>EN</span>
                 <span className={styles.off}>FR</span>
               </div>
@@ -186,7 +186,7 @@ const Navbar = () => {
                   checked={locale === 'fr'}
                   onChange={handleLocaleChange}
                   />
-                <label for="language-toggle"></label>
+                <label htmlFor="language-toggle"></label>
                 <span className={styles.on}>EN</span>
                 <span className={styles.off}>FR</span>
               </div>
