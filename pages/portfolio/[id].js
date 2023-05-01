@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { AiOutlineCaretRight } from "react-icons/ai";
 import Image from "next/image";
 import academique from "../../public/assets/portfolio/academique.jpg";
-import weather from '../../public/assets/portfolio/weather.jpg'
+import weather from '../../public/assets/portfolio/weatherApp.jpg'
 import { BiChevronLeft } from "react-icons/bi";
 import Link from "next/link";
 import { FormattedMessage } from 'react-intl'
