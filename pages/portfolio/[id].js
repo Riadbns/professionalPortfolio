@@ -25,7 +25,7 @@ const portfolios = [
   {
     id: 2,
     title: "Weather App",
-    imageSrc: weather,
+    imageSrc:weather,
     url: "Weather-Websit",
     src:"https://newweather-app-xi.vercel.app/",
     git:"https://github.com/Riadbns/NewweatherApp",
@@ -83,7 +83,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc, src,git,projet_description
         </h1>
 
          <div className="relative w-full h-[10rem]  md:h-[20rem] mx-auto overflow-hidden my-8">
-          <Image src={imageSrc} alt="bla" layout="fill" objectFit="cover" />
+          <Image src={imageSrc} alt="image" layout="fill" objectFit="cover" />
         </div> 
 
         <h2 className="text-center md:text-left my-4 text-2xl font-bold">
