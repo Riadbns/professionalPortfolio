@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { AiOutlineCaretRight } from "react-icons/ai";
 import Image from "next/image";
 import academique from "../../public/assets/portfolio/academique.jpg";
+import weather from '../../public/assets/portfolio/weather.jpg'
 import { BiChevronLeft } from "react-icons/bi";
 import Link from "next/link";
 import { FormattedMessage } from 'react-intl'
@@ -23,6 +24,16 @@ const portfolios = [
   },
   {
     id: 2,
+    title: "Weather App",
+    imageSrc: weather,
+    url: "Weather-Websit",
+    src:"https://newweather-app-xi.vercel.app/",
+    git:"https://github.com/Riadbns/NewweatherApp",
+    projet_description:"projet3_description",
+    projet_realise:"projet3_realise"
+  },
+  {
+    id: 3,
     title: "Academic Portfolio",
     imageSrc: academique,
     url: "Academic-Portfolio",

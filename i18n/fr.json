@@ -28,6 +28,10 @@
    "projet2_description":"J\u0027ai créé un portfolio académique qui montre mes projets en utilisant HTML, CSS, JavaScript et Tailwind. J\u0027ai voulu utiliser les technologies les plus modernes pour construire un site web élégant et facile à naviguer, et j\u0027ai choisi d\u0027utiliser Tailwind pour donner à mon site un look professionnel et moderne. De plus, j\u0027ai conçu mon site web avec un design responsive, ce qui signifie qu\u0027il s\u0027adapte automatiquement à la taille de l\u0027écran de l\u0027utilisateur pour offrir une expérience utilisateur optimale sur tout type de périphérique, que ce soit sur ordinateur de bureau, tablette ou smartphone.",
    "projet2_realise":"Ce projet a été réalisé par Riad Benosmane",
 
+   "projet3_description":"Cette application de météo est conçue pour fournir des informations en temps réel sur la météo de différents pays et villes. Elle est créée à l'aide des technologies web comme React, CSS, HTML et JavaScript et utilise l'API d'OpenWeather pour récupérer les données météorologiques. L'interface utilisateur de l'application est conviviale et facile à naviguer. Elle permet à l'utilisateur de rechercher une ville ou un pays spécifique pour afficher les informations météorologiques actuelles.L'application est régulièrement mise à jour pour garantir la précision des données météorologiques et la disponibilité de nouvelles fonctionnalités. Elle peut être utilisée sur différents appareils, tels que les ordinateurs de bureau, les tablettes et les smartphones, et offre une expérience utilisateur cohérente sur tous les dispositifs.",
+   "projet3_realise":"Ce projet a été réalisé par Riad Benosmane",
+
+
    "cv_1":"Objectif",
    "cv_2":"Obtenir un poste de Programmeur Web où je peux utiliser mes compétences techniques et mes connaissances pour contribuer au succès de l\u0027organisation et faire avancer ma carrière.",
 

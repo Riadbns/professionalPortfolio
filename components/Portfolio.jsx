@@ -1,6 +1,7 @@
 import React from "react";
 import academique from "../public/assets/portfolio/academique.jpg";
 import technoshop from "../public/assets/portfolio/technoshop.jpg";
+import weather from '../public/assets/portfolio/weatherApp.jpg'
 import Image from "next/image";
 import Link from "next/link";
 import { FormattedMessage } from 'react-intl'
@@ -14,10 +15,17 @@ import { FormattedMessage } from 'react-intl'
     },
     {
       id: 2,
+      title: "Weather App",
+      imageSrc: weather,
+      url: "Weather-Websit",
+      
+    
+    },
+    {
+      id: 3,
       title: "Academic Portfolio",
       imageSrc: academique,
       url: "Academic-Portfolio",
-    
     }
   ];
 const Portfolio = () => {
@@ -35,15 +43,15 @@ const Portfolio = () => {
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
           {portfolios.map(({ id, title, imageSrc, url }) => (
             <Link key={id} href={`/portfolio/${url}`}>
-              <div  className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-2xl">
+              <div  className=" flex flex-col justify-between cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-2xl "> 
                 <div >
-                <Image
-                  src={imageSrc}
-                  alt={title}
-                  className=" rounded-2xl duration-200 
-                  hover:scale-110 "
-                />
-                </div>
+                  <Image
+                    src={imageSrc}
+                    alt={title}
+                    className="rounded-2xl duration-200 
+                    hover:scale-110 "
+                  />
+                  </div> 
                 <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4">
                   {title}
                 </h2>
