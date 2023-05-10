@@ -5,6 +5,9 @@ import { AiOutlineCaretRight } from "react-icons/ai";
 import Image from "next/image";
 import academique from "../../public/assets/portfolio/academique.jpg";
 import weather from '../../public/assets/portfolio/weatherApp.jpg'
+import jeuxDungeon from '../../public/assets/portfolio/JeuxDungeon.jpg';
+import ecommerce from '../../public/assets/portfolio/ecommerceapp.jpg';
+import centreInfo from '../../public/assets/portfolio/centreInfo.jpg';
 import { BiChevronLeft } from "react-icons/bi";
 import Link from "next/link";
 import { FormattedMessage } from 'react-intl'
@@ -41,6 +44,36 @@ const portfolios = [
     git:"https://github.com/Riadbns/Academicportfolio",
     projet_description:"projet2_description",
     projet_realise:"projet2_realise"
+  },
+  {
+    id: 4,
+    title: "Arcade Game",
+    imageSrc: jeuxDungeon,
+    url: "JeuxDungeon-Websit",
+    src:"https://jeuxdungeon.netlify.app/",
+    git:"https://github.com/Riadbns/jeuxdungeon",
+    projet_description:"projet4_description",
+    projet_realise:"projet4_realise"
+  },
+  {
+    id: 5,
+    title: "Ecommerce Fullstack App",
+    imageSrc: ecommerce,
+    url: "ecommerce-Websit",
+    src:"https://technoshopfinal.onrender.com/",
+    git:"https://github.com/Riadbns/E_commerceWebsapp",
+    projet_description:"projet5_description",
+    projet_realise:"projet5_realise"
+  },
+  {
+    id: 6,
+    title: "IT training center App",
+    imageSrc: centreInfo,
+    url: "centreInfo-Websit",
+    src:"https://centre-formation-infomatique.onrender.com/",
+    git:"https://github.com/Riadbns/centreInformatique",
+    projet_description:"projet6_description",
+    projet_realise:"projet6_realise"
   }
 ];
 
@@ -69,7 +102,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc, src,git,projet_description
 
 
   return (
-    <div className="h-fit w-full text-center ">
+    <div className="h-full w-full text-center ">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col  ">
         <div className="flex">
           <Link href="/#portfolio">
@@ -85,6 +118,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc, src,git,projet_description
          <div className="relative w-full h-[10rem]  md:h-[20rem] mx-auto overflow-hidden my-8">
           <Image src={imageSrc} alt="image" layout="fill" objectFit="cover" />
         </div> 
+
 
         <h2 className="text-center md:text-left my-4 text-2xl font-bold">
           <FormattedMessage id="desciption"/>

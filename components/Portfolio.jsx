@@ -1,7 +1,10 @@
 import React from "react";
 import academique from "../public/assets/portfolio/academique.jpg";
 import technoshop from "../public/assets/portfolio/technoshop.jpg";
-import weather from '../public/assets/portfolio/weatherApp.jpg'
+import weather from '../public/assets/portfolio/weatherApp.jpg';
+import jeuxDungeon from '../public/assets/portfolio/JeuxDungeon.jpg';
+import ecommerce from '../public/assets/portfolio/ecommerceapp.jpg';
+import centreInfo from '../public/assets/portfolio/centreInfo.jpg';
 import Image from "next/image";
 import Link from "next/link";
 import { FormattedMessage } from 'react-intl'
@@ -26,6 +29,24 @@ import { FormattedMessage } from 'react-intl'
       title: "Academic Portfolio",
       imageSrc: academique,
       url: "Academic-Portfolio",
+    },
+    {
+      id: 4,
+      title: "Arcade Game",
+      imageSrc: jeuxDungeon,
+      url: "JeuxDungeon-Websit",
+    },
+    {
+      id: 5,
+      title: "Ecommerce Fullstack App",
+      imageSrc: ecommerce,
+      url: "ecommerce-Websit",
+    },
+    {
+      id: 6,
+      title: "IT training center App",
+      imageSrc: centreInfo,
+      url: "centreInfo-Websit",
     }
   ];
 const Portfolio = () => {

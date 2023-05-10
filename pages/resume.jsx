@@ -140,27 +140,6 @@ const resume = () => {
             </li>
           </ul>
         </div>
-        <h5 className='text-center underline text-[18px] py-4'>
-          <FormattedMessage id="Experience_0"/>
-        </h5>
-        <div className='py-6'>
-          <p className='py-1 italic'><span className='font-bold'><FormattedMessage id="Experience_5"/> </span></p>
-          <p className='list-disc list-outside px-7 py-1 leading-relaxed'><FormattedMessage id="Experience_6"/></p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-            <FormattedMessage id="Experience_1"/>
-            </li>
-            <li>
-            <FormattedMessage id="Experience_2"/>
-            </li>
-            <li>
-            <FormattedMessage id="Experience_3"/>
-            </li>
-            <li>
-            <FormattedMessage id="Experience_4"/>
-            </li>
-          </ul>
-        </div>  
         
 
 
